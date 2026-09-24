@@ -1,0 +1,15 @@
+2. Ler 2 inteiros - soma, subtração e multiplicação
+
+#include <stdio.h>
+int main() {
+ int a, b;
+ printf("Digite o primeiro valor: ");
+ scanf("%d", &a);
+ printf("Digite o segundo valor: ");
+ scanf("%d", &b);
+
+ printf("Soma: %d\n", a + b);
+ printf("Subtracao: %d\n", a - b);
+ printf("Multiplicacao: %d\n", a * b);
+ return 0;
+}
